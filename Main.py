@@ -16,9 +16,9 @@ def send_sms():
 
         url = "https://http-api.d7networks.com/send"
         querystring = {
-            "username":"shti4743",
-            "password":"lAcAiu94",
-            "from":"INFO",
+            "username":"USERNAME",
+            "password":"PASSWORD",
+            "from":"SENDER ID/NAME",
             "content":messages,
             "dlr-method":"POST",
             "dlr-url":"https://4ba60af1.ngrok.io/receive",
